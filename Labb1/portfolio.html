@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Morgan Westin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="om.html">Om mig</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Portfolio</h1>
+        <div class="project">
+            <div class="section">
+            <h2>Projekt 1</h2>
+            <img src="bilder/a picture of a basic bank application.webp" alt="Bild av projekt 1">
+            <button onclick="document.getElementById('modal1').style.display='block'">Mer information</button>
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="document.getElementById('modal1').style.display='none'">&times;</span>
+                    <h2>Projekt 1</h2>
+                    <p>Beskrivning av projekt 1.</p>
+                    <p>En bankapplikation med inloggning, kontohantering, valutastöd, sparkonton, lån och transaktionsloggar.</p>
+                    <p>https://github.com/jmikaelsson/TeamDataDragons</p>https://github.com/IceDropp/Labb3Morgan
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="project">
+            <div class="project">
+                <div class="section">
+            <h2>Projekt 2</h2>
+            <img src="bilder/DataBas.jpg" alt="Bild av projekt 2">
+            <button onclick="document.getElementById('modal2').style.display='block'">Mer information</button>
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="document.getElementById('modal2').style.display='none'">&times;</span>
+                    <h2>Projekt 2</h2>
+                    <p>Beskrivning av projekt 2.</p>
+                    <p>En databas med inloggning, sparnigar och utdag mm över en skola.</p>
+                    <p>https://github.com/IceDropp/Labb3Morgan</div></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Morgan Westin</p>
+    </footer>
+</body>
+</html>
